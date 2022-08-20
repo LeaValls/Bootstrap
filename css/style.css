@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.footer{
+    background-color:bisque;
+    margin: 0;
+    padding: 1px;
+    width: auto;
+}
