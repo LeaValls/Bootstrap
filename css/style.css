@@ -8,3 +8,35 @@
     padding: 1px;
     width: auto;
 }
+.row{
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 10px;
+}
+.anchocarrusel{
+    width: 100vw;
+    height: 80vw;
+    margin: 10px;
+    padding: 15px;
+}
+.textoNosotras{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    align-content: center;
+    flex-direction: column;
+}
+.marketingOlfativo{
+    margin: 15px;
+    padding: 10px;
+}
+.formulario{
+    margin: 10px;
+    padding: 10px;
+}
+/* .mapas{
+    display: flex;
+    justify-content: space-between;
+} */
