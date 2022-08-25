@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .footer{
     background-color:bisque;
     margin: 0;
@@ -36,7 +37,37 @@
     margin: 10px;
     padding: 10px;
 }
-/* .mapas{
+.fa-instagram{
+    font-size: 2rem;
+    color: gray;
+    
+}
+.fa-facebook{
+    font-size: 2rem;
+    color: gray;
+}
+.fa-instagram:hover{
+    color:red;
+    transition: .3s;
+    transform: scale(1.5);
+}
+.fa-facebook:hover{
+    color: blue;
+    transition: .3s;
+    transform: scale(1.5);
+}
+.overflow{
+    color: dimgray;
+    font-family: cursive;
+    font-size: small;
     display: flex;
-    justify-content: space-between;
-} */
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
