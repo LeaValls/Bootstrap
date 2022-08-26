@@ -22,13 +22,23 @@
 }
 .textoNosotras{
     display: flex;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    font-size: 20px;
+    margin: 70px;
+    padding: 20px;
+    text-align:justify;
+    font-size: 15px;
     align-content: center;
     flex-direction: column;
 }
+.textoNosotrasDos{
+    display: flex;
+    margin: 70px;
+    padding: 20px;
+    text-align:justify;
+    font-size: 15px;
+    align-content: center;
+    flex-direction: column;
+}
+
 .marketingOlfativo{
     margin: 15px;
     padding: 10px;
@@ -71,3 +81,68 @@
     justify-content: flex-end;
     flex-wrap: wrap;
 }
+.botonEnviar{
+    background-color: black;
+    color: white;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.nosotras {  
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+/* .textoNosotras{
+    display: flex;
+    justify-content: flex-end;
+} */
+.nosotrasDos{
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;   
+}
+.animate__pulse{
+    color: gray;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation-iteration-count:infinite;
+}
+
+
+@media (max-width: 768px){
+    .mapas{
+        display: flex;
+        flex-wrap: wrap        
+    }
+    .nosotras{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+    }
+    .nosotrasDos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .textoNosotras{
+        text-align: center;
+    }
+}
+
+
