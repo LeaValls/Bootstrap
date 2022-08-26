@@ -22,7 +22,7 @@
 }
 .textoNosotras{
     display: flex;
-    margin: 70px;
+    margin: 30px;
     padding: 20px;
     text-align:justify;
     font-size: 15px;
@@ -31,7 +31,7 @@
 }
 .textoNosotrasDos{
     display: flex;
-    margin: 70px;
+    margin: 30px;
     padding: 20px;
     text-align:justify;
     font-size: 15px;
@@ -110,10 +110,10 @@
     flex-wrap: nowrap;
     align-items: center;   
 }
-.animate__pulse{
+.animate__fadeOut{
     color: gray;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
