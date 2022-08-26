@@ -22,7 +22,7 @@
 }
 .textoNosotras{
     display: flex;
-    margin: 30px;
+    margin: 70px;
     padding: 20px;
     text-align:justify;
     font-size: 15px;
@@ -31,7 +31,7 @@
 }
 .textoNosotrasDos{
     display: flex;
-    margin: 30px;
+    margin: 70px;
     padding: 20px;
     text-align:justify;
     font-size: 15px;
