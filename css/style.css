@@ -16,6 +16,18 @@
     flex-direction: row;
     align-items: center;
 }
+.card {
+    margin-top: 20px;    
+    align-items: center;    
+    }    
+    .card-body {    
+    height: 250px;    
+    }    
+    .card-img-top {    
+    width: 200px;    
+    height: 250px;    
+    padding-top: 15px;    
+    }
 .anchocarrusel{
     width: 100vw;
     height: 80vw;
