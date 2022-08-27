@@ -11,8 +11,10 @@
 }
 .row{
     justify-content: space-evenly;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
 }
 .anchocarrusel{
     width: 100vw;
